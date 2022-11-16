@@ -1,14 +1,16 @@
 [
   {
-    "repository": "CorvusRom-Devices/kernel_lge_sm8150",
+    "repository": "kernel_lge_sm8150",
     "target_path": "kernel/lge/sm8150",
-    "branch": "main",
-    "remote": "github"
   },
   {
-    "repository": "CorvusRom-Devices/vendor_lge",
+    "repository": "vendor_lge",
     "target_path": "vendor/lge",
-    "branch": "12.1,
-    "remote": "github",
+  },
+  {
+    "repository" : "LineageOS/android_packages_apps_Aperture",
+    "target_path": "packages/apps/Aperture",
+    "branch"     : "lineage-20.0",
+    "remote"     : "github"
   }
 ]
